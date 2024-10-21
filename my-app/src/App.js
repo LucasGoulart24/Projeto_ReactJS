@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './logo.png';
 
 function App() {
   return (
@@ -15,9 +16,12 @@ function App() {
       <div className='principal'>
         <div className='card'>
           <h1>Hello World</h1>
-          <p>Esse é meu primeiro site em ReactJS</p>
+          <p>Esse é meu primeiro site em ReactJS, se você não sabe o que é ReactJS, clique no botão para saber mais.</p>
+          <button><a href='https://react.dev/'>Saiba Mais</a></button>
         </div>
-        <p>&copy;2024 - Lucas Biasoli Goulart</p>
+        <div className='logo'>
+          <img src={logo} alt='logo'></img>
+        </div>
       </div>
     </div>
   );
