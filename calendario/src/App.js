@@ -62,7 +62,7 @@ function App() {
         <span>30</span>
       </div>
       <div className="Feriados">
-        <p>2 - Finas</p>
+        <p>2 - Finados</p>
         <p>15 - Proclamação da República</p>
         <p>20 - Dia da Conciência Negra</p>
       </div>
